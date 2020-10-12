@@ -1,0 +1,75 @@
+@import 'starter/theme/colors.scss';
+
+.heroBanner {
+  text-align: center;
+}
+
+.heroText {
+  color: $header-color;
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-top: 2.4rem;
+  margin-bottom: 1.4rem;
+}
+
+.heroSubtext {
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  background-clip: text;
+  color: transparent;
+}
+
+.heroSplit {
+  color: $text-color;
+}
+
+.docsDesc {
+  padding-top: 0.6rem;
+  display: flex;
+}
+
+.docsItem {
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border: 1px solid palevioletred;
+  border-radius: 10px;
+  display: flex;
+}
+
+.docsIcon {
+  font-size: 82%;
+  display: flex;
+  align-items: center;
+}
+
+.heroText a {
+  color: $header-color;
+  border-bottom: none;
+}
+
+.docsDesc a {
+  color: $link-color;
+  border-bottom: 1px solid $border-color;
+}
+
+.heroText a:hover {
+  color: $header-color;
+  border-bottom: none;
+}
+
+.docsDesc a:hover {
+  color: $link-hover-color;
+  border-bottom: 1px solid $border-hover-color;
+}
+
+.bottomMsg {
+  text-align: right;
+}
+
+.emojiBig {
+  font-size: 1.3rem;
+}
+
+.punchline {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.3rem;
+}

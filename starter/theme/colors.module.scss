@@ -1,0 +1,15 @@
+@import 'colors.scss';
+
+/* stylelint-disable */
+
+:export {
+  env: $env;
+  textColor: $text-color;
+  headerColor: $header-color;
+  titleColor: $title-color;
+  linkColor: $link-color;
+  borderColor: $border-color;
+  linkHoverColor: $link-hover-color;
+  borderHoverColor: $border-hover-color;
+  cardColor: $card-color;
+}

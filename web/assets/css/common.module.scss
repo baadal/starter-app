@@ -1,0 +1,72 @@
+@import 'starter/theme/colors.scss';
+
+.pageTitle {
+  color: $title-color;
+  margin: 0.4rem 0 0.9rem 0;
+}
+
+.infoCard {
+  margin: 0 auto;
+  width: max-content;
+  padding: 1rem 1.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+  background-color: $card-color;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
+  transition: 0.3s;
+  transition-property: box-shadow;
+}
+
+.infoCard:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  transition: 0.3s;
+  transition-property: box-shadow;
+}
+
+.infoCardItem {
+  margin-top: 0.4rem;
+}
+
+.infoCard code {
+  font-weight: bold;
+}
+
+.infoCard a {
+  color: $link-color;
+  border-bottom: none;
+}
+
+.infoCard a:hover {
+  color: $link-color;
+  border-bottom: none;
+}
+
+.vspace {
+  height: 0.4rem;
+}
+
+.vspace2 {
+  height: 0.8rem;
+}
+
+.vspace3 {
+  height: 1.2rem;
+}
+
+.justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.ulist {
+  padding-left: 1.8rem;
+}
+
+.alertTitle {
+  color: #bb3385;
+}
+
+.textOlive {
+  color: olive;
+}

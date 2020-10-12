@@ -1,0 +1,7 @@
+/node_modules/**
+/build/**
+/starter/config/**
+/starter/scripts/**
+/tasks/**/*
+/*.js
+/*.json

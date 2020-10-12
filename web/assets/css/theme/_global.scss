@@ -1,0 +1,16 @@
+// @import 'colors.scss';
+
+// Note: In case of conflict with default/reset css, try setting
+// emotion Global styles in web/app.tsx
+
+@font-face {
+  font-family: 'Gloria Hallelujah';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../../fonts/GloriaHallelujah-Regular.ttf) format('truetype');
+}
+
+body {
+  background-color: rgba(230, 230, 250, 0.05);
+}

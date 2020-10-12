@@ -1,0 +1,19 @@
+// @import 'colors.scss';
+
+// Note: In case of conflict with default/reset css, try setting
+// emotion Global styles in starter/web/app-main.tsx
+html {
+  font-size: 20px;
+}
+
+@media (min-width: 481px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+#root {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
